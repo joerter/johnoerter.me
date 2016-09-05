@@ -8,14 +8,11 @@ social:
   - icon: twitter
     url: "https://twitter.com/john_oerter"
   - icon: github
-    url: "http://github.com"
+    url: "http://github.com/joerter"
   - icon: linkedin
     url: "https://www.linkedin.com/in/johnoerter"
-    icon: github
-    url: "#"
-
 ---
 
 ###John Oerter
 
-Passionate software developer.
+I'm a software developer from Omaha, NE. I enjoy constantly learning, and blogging about my experiences along the way. My favorite topics are Agile methodologies, JavaScript, Node.js, and Docker/containerization.

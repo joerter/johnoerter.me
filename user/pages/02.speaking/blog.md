@@ -1,6 +1,6 @@
 ---
-title: Blog
-blog_url: blog
+title: Speaking
+blog_url: speaking
 body_classes: header-image fullwidth
 
 sitemap:
@@ -16,7 +16,7 @@ content:
     pagination: true
 
 feed:
-    description: John Oerter personal blog
+    description: Speaking
     limit: 10
 
 pagination: true

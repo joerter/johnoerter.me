@@ -1,0 +1,17 @@
+title: John Oerter
+description: "Personal blog for John Oerter"
+author:
+  name: John Oerter
+  email: 'contact@johnoerter.me'
+  url: https://johnoerter.me/
+  logo:
+  gravatar: joerter@gmail.com
+  description: "Passionate software developer"
+blog:
+  route: ''
+metadata:
+    description: 'Personal blog for John Oerter'
+taxonomies: [category,tag,month]
+
+# Copyright
+copyright: Copyright John Oerter, 2016. Theme By <a href="http://www.soratemplates.com/" rel="dofollow" target="_blank" title="Blogger Templates">Sora Templates</a> and <a href="http://mybloggerthemes.com/" rel="dofollow" target="_blank" title="Blogger Templates">My Blogger Themes</a>
