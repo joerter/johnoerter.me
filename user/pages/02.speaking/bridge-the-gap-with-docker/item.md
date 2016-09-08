@@ -1,6 +1,6 @@
 ---
 title: Bridge the Dev/Prod Gap with Docker
-date: 17:34 07/09/2016
+date: 17:34 09/07/2016
 taxonomy:
     category: blog
     tag: [docker]
