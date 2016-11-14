@@ -62,7 +62,7 @@ form:
 
     buttons:
         - type: submit
-          value: PLUGIN_COMMENTS.SUBMIT_COMMENT_BUTTON_TEXT
+          value: Submit
 
     process:
         - email:
