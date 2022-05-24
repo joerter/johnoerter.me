@@ -1,0 +1,25 @@
+{
+  "name": "johnoerter.me",
+  "version": "1.0.0",
+  "description": "Personal site for John Oerter",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files 'index.html'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerter/johnoerter.me.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "John Oerter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joerter/johnoerter.me/issues"
+  },
+  "homepage": "https://github.com/joerter/johnoerter.me#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.10"
+  }
+}
