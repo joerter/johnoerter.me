@@ -1,11 +1,82 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
-        <title>John Oerter</title>
-    </head>
-    <body>
-        <h1>John Oerter</h1>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <title>John Oerter</title>
+
+    <style>
+      :root {
+        --background-color: #a2aebf;
+        --content-background-color: #f7f9f9;
+        --primary-color: #1b4464;
+        --accent-color: #e9524a;
+      }
+      body {
+        background-color: var(--background-color);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+        line-height: 1.5;
+        padding: 4em 1em;
+      }
+      .content {
+        background-color: var(--content-background-color);
+        border: 1px solid var(--accent-color);
+        max-width: 50rem;
+        margin: 2rem auto 0 auto;
+        text-align: center;
+        padding: 1rem;
+        color: #555;
+      }
+      h1,
+      h2,
+      strong {
+        color: #333;
+      }
+      a {
+        color: var(--primary-color);
+        font-weight: bold;
+      }
+      img {
+        clip-path: circle(80px at center);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <img alt="John Oerter Profile" src="/profile-250.jpeg" />
+      <h2>👋 Hi, nice to meet you!</h2>
+      <p>
+        I am passionate about building beautiful web applications that
+        <strong>delight</strong> and <strong>inspire</strong>.
+      </p>
+
+      <p>
+        I have over 8 years of experience working in a variety of industries and
+        teams building solutions to problems using software. I prefer to focus
+        on the UI and work closely with end users and designers to craft elegant
+        experiences. I believe that striving for <strong>simplicity</strong> and
+        <strong>clarity</strong> results in the best outcomes.
+      </p>
+
+      <p>
+        If you would like to read some of my thoughts on building software,
+        checkout my blog at
+        <a href="https://redgreenrefactor.dev" target="_blank"
+          >redgreenrefactor.dev</a
+        >.
+      </p>
+
+      <p>
+        To get in contact with me, send me an email at
+        <a href="mailto:hey@johnoerter.me">hey@johnoerter.me</a>, follow me on
+        <a href="https://github.com/joerter">GitHub</a>, or connect with me on
+        <a href="https://www.linkedin.com/in/johnoerter/">LinkedIn</a>.
+      </p>
+    </div>
+  </body>
 </html>
