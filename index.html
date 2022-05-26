@@ -10,9 +10,8 @@
 
     <style>
       :root {
-        --background-color: #a2aebf;
-        --content-background-color: #f7f9f9;
-        --primary-color: #1b4464;
+        --background-color: #d2e4f9;
+        --primary-color: #08151f;
         --accent-color: #e9524a;
       }
       body {
@@ -21,21 +20,25 @@
           Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
           "Segoe UI Symbol";
         line-height: 1.5;
-        padding: 4em 1em;
+        padding: 1rem 2rem;
       }
       .content {
-        background-color: var(--content-background-color);
-        border: 1px solid var(--accent-color);
+        /* background-color: var(--content-background-color); */
+        background: linear-gradient(
+          -45deg,
+          rgba(0, 0, 0, 0.22),
+          rgba(255, 255, 255, 0.25)
+        );
+        border-radius: 50px;
         max-width: 50rem;
         margin: 2rem auto 0 auto;
         text-align: center;
-        padding: 1rem;
-        color: #555;
+        padding: 1rem 2rem;
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+          -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
       }
-      h1,
-      h2,
-      strong {
-        color: #333;
+      h2 {
+        margin-top: 0.25rem;
       }
       a {
         color: var(--primary-color);
@@ -56,11 +59,12 @@
       </p>
 
       <p>
-        I have over 8 years of experience working in a variety of industries and
-        teams building solutions to problems using software. I prefer to focus
-        on the UI and work closely with end users and designers to craft elegant
-        experiences. I believe that striving for <strong>simplicity</strong> and
-        <strong>clarity</strong> results in the best outcomes.
+        I have over 8 years of experience working in a variety of industries
+        <strong>building solutions to problems using software</strong>. I prefer
+        to focus on the UI and work closely with end users and designers to
+        craft elegant experiences. I believe that striving for
+        <strong>simplicity</strong> and <strong>clarity</strong> results in the
+        best outcomes.
       </p>
 
       <p>
